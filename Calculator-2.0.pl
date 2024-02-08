@@ -2,8 +2,6 @@
 use strict;
 use warnings;
 
-print "---   TRY   ---\n\n";
-
 my @input_arr;
 my $result;
 my $in_progress = 1;
