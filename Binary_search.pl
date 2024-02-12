@@ -15,8 +15,6 @@ my $index = "not found";
 
 while ($min <= $max && $in_progress) {
     my $mid = int($min + (($max - $min) / 2));
-    print "mid = $mid\n";
-    print "$sorted_arr[$mid]\n";
     if ($sorted_arr[$mid] < $key) {
         $min = $mid + 1;
     } elsif ($sorted_arr[$mid] > $key) {
