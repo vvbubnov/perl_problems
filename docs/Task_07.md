@@ -17,11 +17,11 @@
 package MODULE_NAME;
 а последняя - 1;
 
-Для примера:
-package tools;
---some
-code
-here
+Для примера: 
+package tools; 
+--some 
+code 
+here 
 1;
 
 Имя файла и имя модуля в первой строчке кода должны совпадать обязательно.
