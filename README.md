@@ -12,5 +12,5 @@
 + [Задача 05 со звёздочкой](/docs/Task_05-star.md)
 + [Задача 06](/docs/Task_06.md) [РЕШЕНИЕ](Task_06.pl)
 + [Задача 07](/docs/Task_07.md) [РЕШЕНИЕ](Tools.pm)
-+ [Задача 08](/docs/Task_08.md)
++ [Задача 08](/docs/Task_08.md) РЕШЕНИЯ: [Модуль](Tools_Task_8.pm), [Скрипт](Task_8.pl)
 + [Задача 09](/docs/Task_09.md)
