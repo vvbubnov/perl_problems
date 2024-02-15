@@ -18,7 +18,7 @@ sub action {
 	} elsif ( $action eq "reg" ) {
 		&_reg_user( $user_name, $user_passwd);
 	} else {
-		print "Невозможно выполнить операцию!\n";
+		print "Операция типа $action не поддерживается!\n";
 	}
 }
 
