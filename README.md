@@ -15,3 +15,8 @@
 + [Задача 08](/docs/Task_08.md) РЕШЕНИЯ: [Модуль](Tools_Task_08.pm), [Скрипт](Task_08.pl)
 + [Задача 09](/docs/Task_09.md) РЕШЕНИЯ: [Модуль](Tools_Task_09.pm), [Скрипт](Task_09.pl)
 + [Улиточка](/docs/Ulitochka.md) [РЕШЕНИЕ](Ulitochka.pl)
++ [Задача 10](/docs/Task_10.md) РЕШЕНИЯ: [Модуль](Tools_Task_10.pm), [Скрипт](Task_10.pl)
++ [Задача 11](/docs/Task_11.md) РЕШЕНИЯ: [Модуль](Tools_Task_11.pm), [Скрипт](Task_11.pl)
++ [Задача 12](/docs/Task_12.md) РЕШЕНИЯ: [Модуль](Tools_Task_12.pm), [Скрипт](Task_12.pl)
++ [Задача 13](/docs/Task_13.md) РЕШЕНИЯ: [Модуль](Tools_Task_13.pm), [Скрипт](Task_13.pl)
++ [Парсилка](/docs/Parse_tool.md)
