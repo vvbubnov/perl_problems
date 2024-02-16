@@ -16,6 +16,7 @@ my $output = ( $new_tasks >= $productivity )
     ? 'Улиточка не справится :('
     : &_get_result;
 print "$output";
+exit(0);
 
 sub _user_input {
     print shift;
