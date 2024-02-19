@@ -3,7 +3,7 @@ use strict;
 use warnings;
 use lib ".";
 
-use Tools_Task_9;
+use Tools_Task_09;
 
 print "------------------\n";
 print "---  Задача 09 ---\n";
@@ -26,4 +26,4 @@ my $registr = "a234!d-d";
 my $digit = "Aaaa!d-d";
 my $omg = " ";
 
-action( "reg", "user", $omg );
+action( "reg", "Norm_pw-1", $good_pw );
