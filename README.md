@@ -4,7 +4,7 @@
 + [Задача 02](/docs/Task_02.md) [РЕШЕНИЕ](Task_02.pl)
 + [Задача 03](/docs/Task_03.md) [РЕШЕНИЕ](Task_03.pl)
 + [Калькулятор](/docs/Task_Calc.md) [РЕШЕНИЕ](Calculator.pl) **прим.** *не см. строго на кодстайл, писал вслепую. Более осмысленная версия - следующая*
-+ [Калькулятор-2](/docs/Task_Calc2.md) [РЕШЕНИЕ](Calculator-2.0.pl)
++ [Калькулятор-2](/docs/Task_Calc2.md) Решения: [Калькулятор-2.0](Calculator-2.0.pl), [Калькулятор-3.0](calculator-3.0.pl)
 + [Сортировка](/docs/Task_Sort.md) Решения: [Пузырьковая сортировка](Bubble_sort.pl), quiksort?, mergesort?
 + [Бинарный поиск](/docs/Binary_search.md) - Решения: [Итеррационно](Binary_search.pl), рекурсивно?
 + [Задача 04](/docs/Task_04.md) [РЕШЕНИЕ](Task_04.pl)
