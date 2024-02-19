@@ -19,7 +19,8 @@ print "$output";
 exit(0);
 
 sub _user_input {
-    print shift;
+    my $message = shift;
+    print $message;
     chomp ( my $user_input = <STDIN> );
     return $user_input;
 }
