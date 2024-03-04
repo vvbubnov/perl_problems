@@ -78,10 +78,12 @@ sub change_passwd {
         # этой проверки не было в условии
         # но я считаю нефиг переписывать файл если нам подсовывают ерунду
         unless ( $new_passwd eq $user_list{ $user_name } ) {
-            $user_list{ $user_name } = $new_passwd;
-            print 'Пароль пользователя ' . $user_name . ' изменён на ' . $new_passwd . "\n";
-            &_rewrite_config( \%user_list );
-            $result = 1;
+            if ( _check_user_passwd( $new_passwd ) ) {
+                $user_list{ $user_name } = $new_passwd;
+                print 'Пароль пользователя ' . $user_name . ' изменён на ' . $new_passwd . "\n";
+                &_rewrite_config( \%user_list );
+                $result = 1;
+            }
         } else {
             print 'Введённый пароль ' . $new_passwd . ' совпадает с текущим!' . "\n";
             $result = 0;

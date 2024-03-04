@@ -2,7 +2,7 @@ my $good_log = "Norm_usr-1"; # good
 my $good_pw = "A234!d-d"; # good
 
 
-action=login user_name=Tom user_passwd=aasd3g565 perl back_end_11.pl
+action=login user_name=Tom user_passwd=aasd3g565 perl back_end_12.pl
 action=reg user_name=Norm_usr-1 user_passwd=A234\!d-d perl back_end_11.pl
 action=change_passwd user_name=Norm_usr-1 user_passwd=A234\!d-d--rewrite perl back_end_11.pl
 action=del user_name=Norm_usr-1 perl back_end_11.pl
