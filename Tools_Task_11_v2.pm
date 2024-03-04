@@ -60,7 +60,7 @@ sub del_user {
 		&_rewrite_config( \%user_list );
         $result = 1;
 	} else {
-		print 'Пользователь ' . $user_name . ' не зарегестрирован!' . "\n";
+		print 'Пользователь ' . $user_name . ' не зарегистрирован!' . "\n";
         $result = 0;
 	}
     return $result;
@@ -85,7 +85,7 @@ sub change_passwd {
             $result = 0;
         }
     } else {
-        print 'Пользователь ' . $user_name . ' не зарегестрирован!' . "\n";
+        print 'Пользователь ' . $user_name . ' не зарегистрирован!' . "\n";
         $result = 0;
     }
     return $result;
@@ -132,7 +132,7 @@ sub _check_user_passwd {
 }
 
 # функция читает конф файл и возврашает отфильтрованный
-# список пользователей в хэше вида %hash{имя} = пароль
+# список пользователей в хэше вида %hash{ имя } = пароль
 sub _read_conf {
 	my @result_arr;
 	my %result_hash;
@@ -156,7 +156,7 @@ sub _read_conf {
 	return %result_hash;
 }
 
-# функция принимает хэш вида %hash{имя} = пароль
+# функция принимает хэш вида %hash{ имя } = пароль
 # и обновляет конфигурационный файл
 sub _rewrite_config {
     my $users = shift;
