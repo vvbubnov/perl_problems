@@ -30,6 +30,6 @@ is(create_user(), $RC_ERROR, 'create_user() without input user_name OK');
 Perl Изучаем глубже - Глава 17(Основы тестирования)
 
 
-РЕШЕНИЯ: [Модуль](../Tools_Task_13.pm), [Скрипт](../Task_13.pl)
+РЕШЕНИЯ: [Тесты](../tests/tools_12.t)
 ---
 [На главную](../README.md)
