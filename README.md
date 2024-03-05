@@ -19,4 +19,4 @@
 + [Задача 11](/docs/Task_11.md) РЕШЕНИЯ: Старая версия:( [Модуль](Tools_Task_11.pm), [Скрипт](Task_11.pl) ), через $ENV:( [Модуль](Tools_Task_11_v2.pm), [Скрипт](back_end_11.pl) ),
 + [Задача 12](/docs/Task_12.md) РЕШЕНИЯ: [Модуль](Tools_Task_12.pm), [Скрипт](back_end_12.pl)
 + [Задача 13](/docs/Task_13.md) РЕШЕНИЯ: [Тесты](/tests/tools_12.t)
-+ [Парсилка](/docs/Parse_tool.md) 
++ [Парсилка](/docs/Parse_tool.md) РЕШЕНИЯ: [Парсер](/xml_parser.pl), [Файл](/files/simple.xml)
