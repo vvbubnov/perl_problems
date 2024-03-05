@@ -67,5 +67,9 @@ is( change_passwd( $good_log, 'a234!d-d' ), 0, 'Пароль не содержи
 is( change_passwd( $good_log, 'Aaaa!d-d' ), 0, 'Пароль не содержит ни одной цифры - проверка не пройдена' );
 is( change_passwd( $good_log, ' ' ), 0, 'Передали пробел - проверка не пройдена' );
 is( change_passwd( $good_log ), 0, 'Не передали ничего - ошибка' );
+del_user( $good_log );  # clean up
+
+####################
+# Надо ли тестировать print_help??
 
 done_testing();
